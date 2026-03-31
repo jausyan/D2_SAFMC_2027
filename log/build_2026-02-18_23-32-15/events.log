@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001014] (-) JobUnselected: {'identifier': 'fast_lio'}
-[0.001336] (-) JobUnselected: {'identifier': 'ig_lio'}
-[0.001441] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
-[0.001752] (-) EventReactorShutdown: {}
