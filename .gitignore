@@ -1,3 +1,5 @@
 # Ignore 
+/build/
+/install/
+/log/
 src/*/
-
