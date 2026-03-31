@@ -1,0 +1,125 @@
+[0.021s] Invoking command in '/home/rian/project/slam_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rian/project/slam_ws/src/FAST_LIO_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/rian/project/slam_ws/install/fast_lio
+[0.239s] -- The C compiler identification is GNU 13.3.0
+[0.731s] -- The CXX compiler identification is GNU 13.3.0
+[0.789s] -- Detecting C compiler ABI info
+[1.033s] -- Detecting C compiler ABI info - done
+[1.049s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.052s] -- Detecting C compile features
+[1.052s] -- Detecting C compile features - done
+[1.073s] -- Detecting CXX compiler ABI info
+[1.380s] -- Detecting CXX compiler ABI info - done
+[1.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.401s] -- Detecting CXX compile features
+[1.401s] -- Detecting CXX compile features - done
+[1.401s] [0mCurrent CPU archtecture: aarch64[0m
+[2.641s] [33mCMake Warning (dev) at CMakeLists.txt:47 (find_package):
+[2.641s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.641s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.642s]   the cmake_policy command to set the policy and suppress this warning.
+[2.642s] 
+[2.642s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.642s] [0m
+[2.686s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.12.so (found version "3.12.3") 
+[2.689s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.095s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.420s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.474s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.500s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.695s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.701s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.946s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.997s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.232s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[4.311s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.381s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[4.471s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.532s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.568s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[4.624s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[4.834s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[4.834s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.834s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.838s]   cmake_policy command to set the policy and suppress this warning.
+[4.840s] 
+[4.840s]   CMake variable FLANN_ROOT is set to:
+[4.840s] 
+[4.840s]     /usr
+[4.843s] 
+[4.843s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.843s]   .cmake module might still use it.
+[4.843s] Call Stack (most recent call first):
+[4.843s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[4.850s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[4.850s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[4.857s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.858s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[4.858s]   /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.858s]   /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[4.858s]   CMakeLists.txt:60 (find_package)
+[4.859s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.859s] [0m
+[4.859s] -- Found flann version 1.9.2
+[4.865s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.867s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[8.904s] -- Checking for module 'libusb-1.0'
+[8.944s] --   Found libusb-1.0, version 1.0.27
+[9.063s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[9.070s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.236s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.244s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[9.267s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.3")  
+[9.302s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.43") 
+[10.400s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.418s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.624s] -- Found Qhull version 8.0.2
+[12.875s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.921s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[13.933s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[13.941s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[13.948s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[13.953s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[13.962s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[13.971s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[13.974s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[13.980s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[13.991s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[13.998s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[14.006s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[14.011s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[14.019s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[14.025s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[14.029s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[14.032s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[14.035s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[14.045s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[14.051s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[14.055s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[14.058s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[14.060s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[14.067s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[14.072s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[14.453s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[14.458s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.458s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.484s] [31mCMake Error at CMakeLists.txt:62 (find_package):
+[14.484s]   By not providing "Findlivox_ros_driver2.cmake" in CMAKE_MODULE_PATH this
+[14.484s]   project has asked CMake to find a package configuration file provided by
+[14.484s]   "livox_ros_driver2", but CMake did not find one.
+[14.485s] 
+[14.485s]   Could not find a package configuration file provided by "livox_ros_driver2"
+[14.485s]   with any of the following names:
+[14.485s] 
+[14.485s]     livox_ros_driver2Config.cmake
+[14.485s]     livox_ros_driver2-config.cmake
+[14.485s] 
+[14.485s]   Add the installation prefix of "livox_ros_driver2" to CMAKE_PREFIX_PATH or
+[14.485s]   set "livox_ros_driver2_DIR" to a directory containing one of the above
+[14.485s]   files.  If "livox_ros_driver2" provides a separate development package or
+[14.486s]   SDK, be sure it has been installed.
+[14.486s] 
+[14.486s] [0m
+[14.487s] -- Configuring incomplete, errors occurred!
+[14.545s] Invoked command in '/home/rian/project/slam_ws/build/fast_lio' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rian/project/slam_ws/src/FAST_LIO_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/rian/project/slam_ws/install/fast_lio

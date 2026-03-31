@@ -1,0 +1,168 @@
+[0.058s] Invoking command in '/home/rian/project/slam_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rian/project/slam_ws/src/FAST_LIO_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/rian/project/slam_ws/install/fast_lio
+[0.186s] [0mCurrent CPU archtecture: aarch64[0m
+[0.195s] [33mCMake Warning (dev) at CMakeLists.txt:47 (find_package):
+[0.195s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.196s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.196s]   the cmake_policy command to set the policy and suppress this warning.
+[0.196s] 
+[0.196s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.196s] [0m
+[0.213s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.107s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.382s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.459s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.838s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.845s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.260s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.358s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.472s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.557s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.623s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.675s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.749s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[2.938s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.938s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.939s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.940s]   cmake_policy command to set the policy and suppress this warning.
+[2.940s] 
+[2.941s]   CMake variable FLANN_ROOT is set to:
+[2.941s] 
+[2.942s]     /usr
+[2.943s] 
+[2.944s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.944s]   .cmake module might still use it.
+[2.945s] Call Stack (most recent call first):
+[2.945s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.945s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.946s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.946s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.946s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.946s]   /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.946s]   /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[2.947s]   CMakeLists.txt:60 (find_package)
+[2.947s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.947s] [0m
+[2.947s] -- Found flann version 1.9.2
+[6.563s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.580s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.601s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[9.408s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.444s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.080s] -- Found Qhull version 8.0.2
+[14.017s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.185s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[17.199s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[17.226s] -- Found livox_ros_driver2: 1.0.0 (/home/rian/project/slam_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[17.411s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[17.545s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[17.576s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[17.577s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[17.577s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[17.577s]   command to set the policy and suppress this warning.
+[17.578s] 
+[17.580s]   CMake variable PCL_ROOT is set to:
+[17.580s] 
+[17.580s]     /usr
+[17.580s] 
+[17.580s]   For compatibility, CMake is ignoring the variable.
+[17.581s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[17.581s] [0m
+[17.618s] [0mEigen:/usr/include/eigen3[0m
+[17.621s] -- PCL: /usr/include/pcl-1.14
+[21.623s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[25.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[27.548s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[28.168s] -- Found PythonExtra: /usr/bin/python3  
+[31.462s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[32.026s] -- Configuring done (31.9s)
+[33.061s] -- Generating done (0.7s)
+[33.218s] -- Build files have been written to: /home/rian/project/slam_ws/build/fast_lio
+[33.450s] Invoked command in '/home/rian/project/slam_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rian/project/slam_ws/src/FAST_LIO_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/rian/project/slam_ws/install/fast_lio
+[33.451s] Invoking command in '/home/rian/project/slam_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rian/project/slam_ws/build/fast_lio -- -j4 -l4
+[33.878s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[35.533s] [  2%] Built target fast_lio__rosidl_generator_type_description
+[35.778s] [  2%] Built target ament_cmake_python_copy_fast_lio
+[35.889s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[38.410s] [  7%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__description.c.o[0m
+[38.696s] [ 10%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[39.611s] [ 13%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[39.794s] [ 15%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[40.137s] [ 15%] Built target fast_lio__rosidl_generator_c
+[42.391s] running egg_info
+[42.400s] creating fast_lio.egg-info
+[42.753s] writing fast_lio.egg-info/PKG-INFO
+[42.756s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[42.760s] writing top-level names to fast_lio.egg-info/top_level.txt
+[42.764s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[43.385s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[43.385s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[43.693s] [ 15%] Built target ament_cmake_python_build_fast_lio_egg
+[43.748s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[44.797s] [ 21%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[45.031s] [ 23%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[45.146s] [ 23%] Built target fast_lio__rosidl_typesupport_introspection_c
+[45.178s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[46.027s] [ 28%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[46.373s] [ 31%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[46.636s] [ 31%] Built target fast_lio__rosidl_typesupport_c
+[46.697s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[48.014s] [ 36%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[49.719s] [ 39%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[49.927s] [ 39%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[49.979s] [ 42%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[50.842s] [ 42%] Built target fast_lio__cpp
+[50.884s] [ 44%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[51.932s] [ 47%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[53.108s] [ 50%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[53.272s] [ 50%] Built target fast_lio__rosidl_typesupport_cpp
+[53.320s] [ 52%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[54.429s] [ 55%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[55.554s] [ 57%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[55.699s] [ 57%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[55.798s] [ 60%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[76.373s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[76.374s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[76.376s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[76.376s]                  from [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/IKFoM_toolkit/esekfom/esekfom.hpp:42[m[K,
+[76.376s]                  from [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/use-ikfom.hpp:4[m[K,
+[76.377s]                  from [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/src/IMU_Processing.hpp:22[m[K,
+[76.377s]                  from [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/src/laserMapping.cpp:47[m[K:
+[76.377s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[76.380s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[76.380s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[122.471s] In file included from [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83[m[K,
+[122.478s]                  from [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/IKFoM_toolkit/esekfom/esekfom.hpp:49[m[K:
+[122.478s] /home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of ‘[01m[Kstd::pair<_FIter, _FIter> MTK::[01;32m[Kcos_sinc_sqrt[m[K(const scalar&) [35m[K[with scalar = double][m[K[m[K’:
+[122.478s] [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:[m[K   required from ‘[01m[Kscalar MTK::[01;32m[Kexp[m[K(vectview<scalar, dim>, vectview<const scalar, dim>, const scalar&) [35m[K[with scalar = double; int n = 3][m[K[m[K’
+[122.478s] [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/IKFoM_toolkit/esekfom/../mtk/types/S2.hpp:140:32:[m[K   required from ‘[01m[Kvoid MTK::S2<_scalar, den, num, S2_typ>::[01;32m[Kboxplus[m[K(MTK::vectview<const _scalar, 2>, scalar) [35m[K[with _scalar = double; int den = 98090; int num = 10000; int S2_typ = 1; scalar = double][m[K[m[K’
+[122.478s] [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/use-ikfom.hpp:12:1:[m[K   required from here
+[122.482s] [01m[K/home/rian/project/slam_ws/src/FAST_LIO_SLAM2/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[122.482s]   143 | std::pair<scalar, scalar> [01;36m[Kcos_sinc_sqrt[m[K(const scalar &x2){
+[122.483s]       |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[257.116s] [ 63%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[275.038s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[285.746s] [ 68%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[292.460s] [ 68%] Built target fastlio_mapping
+[292.511s] [ 71%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[293.672s] [ 73%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[294.680s] [ 76%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[294.791s] [ 76%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[294.841s] [ 76%] Built target fast_lio
+[294.906s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[295.733s] [ 78%] Built target fast_lio__py
+[295.785s] [ 81%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[296.603s] [ 84%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_py.so[0m
+[296.700s] [ 84%] Built target fast_lio__rosidl_generator_py
+[296.760s] [ 86%] [32mBuilding C object CMakeFiles/fast_lio_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[296.997s] [ 89%] [32m[1mLinking C shared module rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.so[0m
+[297.070s] [ 89%] Built target fast_lio_s__rosidl_typesupport_fastrtps_c
+[297.120s] [ 92%] [32mBuilding C object CMakeFiles/fast_lio_s__rosidl_typesupport_c.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[297.345s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.so[0m
+[297.412s] [ 94%] Built target fast_lio_s__rosidl_typesupport_c
+[297.466s] [ 97%] [32mBuilding C object CMakeFiles/fast_lio_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[297.705s] [100%] [32m[1mLinking C shared module rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.so[0m
+[297.777s] [100%] Built target fast_lio_s__rosidl_typesupport_introspection_c

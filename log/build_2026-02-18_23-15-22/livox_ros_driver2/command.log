@@ -1,0 +1,1 @@
+Invoking command in '/home/rian/project/slam_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rian/project/slam_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/rian/project/slam_ws/install/livox_ros_driver2

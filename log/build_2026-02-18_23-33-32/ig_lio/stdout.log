@@ -1,0 +1,6 @@
+[  5%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/pointcloud_preprocess.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/ig_lio_node.cpp.o[0m
+[ 22%] Built target ig_lio_map_node
+[ 27%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/lio.cpp.o[0m
+[ 72%] Built target ig_lio_keyframe_node
+[ 77%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/voxel_map.cpp.o[0m

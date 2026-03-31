@@ -1,0 +1,33 @@
+[0.038s] Invoking command in '/home/rian/project/slam_ws/build/ig_lio': CMAKE_PREFIX_PATH=/home/rian/project/slam_ws/install/livox_ros_driver2:/home/rian/project/slam_ws/install/ig_lio:/home/rian/project/slam_ws/install/fast_lio:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rian/project/slam_ws/install/livox_ros_driver2/lib/python3.12/site-packages:/home/rian/path_ws/install/drone_control/lib/python3.12/site-packages:/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rian/project/slam_ws/build/ig_lio -- -j4 -l4
+[0.224s] [ 11%] Built target ig_lio_map_node
+[0.229s] [ 16%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/ig_lio_node.cpp.o[0m
+[0.249s] [ 22%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/lio.cpp.o[0m
+[0.289s] [ 27%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/SymmetricEigenSolver.cpp.o[0m
+[0.309s] [ 72%] Built target ig_lio_keyframe_node
+[0.331s] [ 77%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/timer.cpp.o[0m
+[2.740s] [ 83%] [32mBuilding CXX object CMakeFiles/ig_lio_node.dir/src/faster_voxel_grid.cpp.o[0m
+[21.467s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/lio.cpp:[m[K In member function ‘[01m[Kbool LIO::[01;32m[KGNStep[m[K(const SensorMeasurement&, Eigen::Matrix<double, 15, 15>&, Eigen::Matrix<double, 15, 1>&, double, Eigen::Matrix<double, 15, 1>&)[m[K’:
+[21.470s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/lio.cpp:284:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksensor_measurement[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.470s]   284 | bool LIO::GNStep([01;35m[Kconst SensorMeasurement& sensor_measurement[m[K,
+[21.470s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[21.470s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/lio.cpp:287:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.470s]   287 |                  [01;35m[Kconst double y0[m[K,
+[21.470s]       |                  [01;35m[K~~~~~~~~~~~~~^~[m[K
+[25.715s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/lio.cpp:[m[K In member function ‘[01m[Kbool LIO::[01;32m[KErrorStateUpdate[m[K(double, const Eigen::Vector3d&, const Eigen::Vector3d&, const Eigen::Vector3d&, const Eigen::Vector3d&)[m[K’:
+[25.715s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/lio.cpp:816:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kw_x[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[25.715s]   816 |   Eigen::Matrix3d [01;35m[Kw_x[m[K = Sophus::SO3d::hat(w).matrix();
+[25.715s]       |                   [01;35m[K^~~[m[K
+[27.075s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/ig_lio_node.cpp:[m[K In member function ‘[01m[Kvoid IG_LIO_NODE::[01;32m[KpublishToRos[m[K(Eigen::Matrix4d&, Eigen::Quaterniond&, rclcpp::Time&)[m[K’:
+[27.075s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/ig_lio_node.cpp:921:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.075s]   921 |   void publishToRos([01;35m[KEigen::Matrix4d& result_pose[m[K, Eigen::Quaterniond& temp_q, rclcpp::Time& current_time_stamp){
+[27.075s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[27.075s] [01m[K/home/rian/project/slam_ws/src/ig_lio/src/ig_lio_node.cpp:921:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktemp_q[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.075s]   921 |   void publishToRos(Eigen::Matrix4d& result_pose, [01;35m[KEigen::Quaterniond& temp_q[m[K, rclcpp::Time& current_time_stamp){
+[27.076s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[132.090s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[132.134s] compilation terminated.
+[132.135s] gmake[2]: *** [CMakeFiles/ig_lio_node.dir/build.make:104: CMakeFiles/ig_lio_node.dir/src/lio.cpp.o] Error 1
+[132.135s] gmake[2]: *** Waiting for unfinished jobs....
+[155.135s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ig_lio_node.dir/all] Error 2
+[155.135s] gmake: *** [Makefile:146: all] Error 2
+[155.403s] Invoked command in '/home/rian/project/slam_ws/build/ig_lio' returned '2': CMAKE_PREFIX_PATH=/home/rian/project/slam_ws/install/livox_ros_driver2:/home/rian/project/slam_ws/install/ig_lio:/home/rian/project/slam_ws/install/fast_lio:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rian/project/slam_ws/install/livox_ros_driver2/lib/python3.12/site-packages:/home/rian/path_ws/install/drone_control/lib/python3.12/site-packages:/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rian/project/slam_ws/build/ig_lio -- -j4 -l4

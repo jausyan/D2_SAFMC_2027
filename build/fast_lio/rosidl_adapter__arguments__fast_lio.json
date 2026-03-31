@@ -1,0 +1,6 @@
+{
+  "package_name": "fast_lio",
+  "non_idl_tuples": [
+    "/home/rian/project/slam_ws/src/FAST_LIO_SLAM2:msg/Pose6D.msg"
+  ]
+}

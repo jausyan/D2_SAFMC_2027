@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (-) JobUnselected: {'identifier': 'ig_lio'}
+[0.000930] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001150] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.001179] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.011937] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.016076] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[0.017215] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rian/project/slam_ws/build/fast_lio', '--', '-j4', '-l4'], 'cwd': '/home/rian/project/slam_ws/build/fast_lio', 'env': OrderedDict({'USER': 'rian', 'SSH_CLIENT': '192.168.50.159 41284 22', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rian/project/slam_ws/install/livox_ros_driver2/lib:/home/rian/project/slam_ws/install/fast_lio/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rian', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/rian/project', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_CE_M': '', '_CONDA_ROOT': '/home/rian/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rian/project/slam_ws/install:/home/rian/path_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rian', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', '_CE_CONDA': '', 'PATH': '/home/rian/.local/bin:/home/rian/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'AMENT_PREFIX_PATH': '/home/rian/path_ws/install/drone_control:/home/rian/project/slam_ws/install/ig_lio:/home/rian/project/slam_ws/install/livox_ros_driver2:/home/rian/project/slam_ws/install/fast_lio:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/rian/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'LC_MEASUREMENT': 'id_ID.UTF-8', '_CONDA_EXE': '/home/rian/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rian/project/slam_ws/build/fast_lio', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/rian/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.50.159 41284 192.168.50.111 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rian/path_ws/install/drone_control/lib/python3.12/site-packages:/home/rian/project/slam_ws/install/livox_ros_driver2/lib/python3.12/site-packages:/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rian/project/slam_ws/install/ig_lio:/home/rian/project/slam_ws/install/livox_ros_driver2:/home/rian/project/slam_ws/install/fast_lio:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099700] (-) TimerEvent: {}
+[0.200099] (-) TimerEvent: {}
+[0.287836] (fast_lio) StdoutLine: {'line': b'[  2%] Built target fast_lio__rosidl_generator_type_description\n'}
+[0.300233] (-) TimerEvent: {}
+[0.304610] (fast_lio) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_fast_lio\n'}
+[0.339563] (fast_lio) StdoutLine: {'line': b'[  5%] Built target fast_lio__cpp\n'}
+[0.352056] (fast_lio) StdoutLine: {'line': b'[ 18%] Built target fast_lio__rosidl_generator_c\n'}
+[0.400336] (-) TimerEvent: {}
+[0.420133] (fast_lio) StdoutLine: {'line': b'[ 26%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[0.436181] (fast_lio) StdoutLine: {'line': b'[ 34%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[0.442361] (fast_lio) StdoutLine: {'line': b'[ 42%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[0.500458] (-) TimerEvent: {}
+[0.505158] (fast_lio) StdoutLine: {'line': b'[ 50%] Built target fast_lio__rosidl_typesupport_c\n'}
+[0.507385] (fast_lio) StdoutLine: {'line': b'[ 57%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[0.528060] (fast_lio) StdoutLine: {'line': b'[ 65%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[0.572528] (fast_lio) StdoutLine: {'line': b'[ 65%] Built target fast_lio\n'}
+[0.600564] (-) TimerEvent: {}
+[0.615983] (fast_lio) StdoutLine: {'line': b'[ 68%] Built target fast_lio__py\n'}
+[0.660152] (fast_lio) StdoutLine: {'line': b'[ 73%] Built target fast_lio__rosidl_generator_py\n'}
+[0.701997] (-) TimerEvent: {}
+[0.712334] (fast_lio) StdoutLine: {'line': b'[ 78%] Built target fast_lio_s__rosidl_typesupport_fastrtps_c\n'}
+[0.715955] (fast_lio) StdoutLine: {'line': b'[ 92%] Built target fast_lio_s__rosidl_typesupport_introspection_c\n'}
+[0.719140] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target fastlio_mapping\n'}
+[0.755830] (fast_lio) StdoutLine: {'line': b'[100%] Built target fast_lio_s__rosidl_typesupport_c\n'}
+[0.789705] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[0.802085] (-) TimerEvent: {}
+[0.821459] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[0.822137] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[0.824823] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[0.902187] (-) TimerEvent: {}
+[0.919398] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.920948] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.995052] (fast_lio) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[1.002304] (-) TimerEvent: {}
+[1.018277] (fast_lio) CommandEnded: {'returncode': 0}
+[1.021263] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[1.043372] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rian/project/slam_ws/build/fast_lio'], 'cwd': '/home/rian/project/slam_ws/build/fast_lio', 'env': OrderedDict({'USER': 'rian', 'SSH_CLIENT': '192.168.50.159 41284 22', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rian/project/slam_ws/install/livox_ros_driver2/lib:/home/rian/project/slam_ws/install/fast_lio/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rian', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/rian/project', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_CE_M': '', '_CONDA_ROOT': '/home/rian/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rian/project/slam_ws/install:/home/rian/path_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rian', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', '_CE_CONDA': '', 'PATH': '/home/rian/.local/bin:/home/rian/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'AMENT_PREFIX_PATH': '/home/rian/path_ws/install/drone_control:/home/rian/project/slam_ws/install/ig_lio:/home/rian/project/slam_ws/install/livox_ros_driver2:/home/rian/project/slam_ws/install/fast_lio:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/rian/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'LC_MEASUREMENT': 'id_ID.UTF-8', '_CONDA_EXE': '/home/rian/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rian/project/slam_ws/build/fast_lio', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/rian/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.50.159 41284 192.168.50.111 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rian/path_ws/install/drone_control/lib/python3.12/site-packages:/home/rian/project/slam_ws/install/livox_ros_driver2/lib/python3.12/site-packages:/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rian/project/slam_ws/install/ig_lio:/home/rian/project/slam_ws/install/livox_ros_driver2:/home/rian/project/slam_ws/install/fast_lio:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rian/path_ws/install/drone_control:/opt/ros/jazzy'}), 'shell': False}
+[1.062773] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.063053] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[1.066779] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/msg/Pose6D.json\n'}
+[1.067296] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.067460] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.067575] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.067732] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.067900] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[1.068089] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[1.068215] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__description.c\n'}
+[1.068691] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c\n'}
+[1.069150] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c\n'}
+[1.069773] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[1.069975] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[1.070648] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[1.071802] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[1.072427] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[1.073729] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""\n'}
+[1.074161] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.074301] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.074423] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.074781] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.075133] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.075611] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[1.076873] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.077140] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.077254] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.077380] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.077477] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[1.077887] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp\n'}
+[1.078278] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[1.078591] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[1.079037] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[1.079569] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.080178] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.080405] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.080528] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.080667] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.080830] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps\n'}
+[1.080982] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.081111] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.081660] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.081845] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.081969] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.082119] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.082231] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[1.082401] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c\n'}
+[1.083044] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.083612] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[1.084606] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.084841] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[1.085355] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""\n'}
+[1.085491] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.085655] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.085799] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.085911] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.086121] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp\n'}
+[1.086848] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[1.088176] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.088355] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[1.088881] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""\n'}
+[1.089008] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[1.089621] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[1.090281] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info\n'}
+[1.090536] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.090739] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.090929] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.091072] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.091286] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio\n'}
+[1.091420] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.091795] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.so\n'}
+[1.092158] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.092325] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.so\n'}
+[1.092607] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[1.092789] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.092952] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/__init__.py\n'}
+[1.093076] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg\n'}
+[1.093206] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/_pose6_d.py\n'}
+[1.093390] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[1.093599] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/__init__.py\n'}
+[1.102413] (-) TimerEvent: {}
+[1.158683] (fast_lio) StdoutLine: {'line': b"Listing '/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio'...\n"}
+[1.159031] (fast_lio) StdoutLine: {'line': b"Compiling '/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/__init__.py'...\n"}
+[1.159134] (fast_lio) StdoutLine: {'line': b"Listing '/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg'...\n"}
+[1.159232] (fast_lio) StdoutLine: {'line': b"Compiling '/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/__init__.py'...\n"}
+[1.159325] (fast_lio) StdoutLine: {'line': b"Compiling '/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/_pose6_d.py'...\n"}
+[1.172426] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.173259] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.173634] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.so\n'}
+[1.174366] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.174786] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.so\n'}
+[1.175428] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.so" to ""\n'}
+[1.175607] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[1.176270] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""\n'}
+[1.176462] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[1.176587] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[1.177620] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[1.183836] (fast_lio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rian/project/slam_ws/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""\n'}
+[1.184120] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/config\n'}
+[1.184655] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[1.188569] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[1.189040] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[1.189552] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[1.190289] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[1.190788] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/launch\n'}
+[1.191245] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[1.191731] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/launch/mapping_ouster64.launch\n'}
+[1.192156] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/launch/mapping_avia.launch\n'}
+[1.192607] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[1.193084] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/launch/mapping_horizon.launch\n'}
+[1.193580] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/launch/mapping_velodyne.launch\n'}
+[1.194116] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/rviz\n'}
+[1.194550] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[1.195370] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[1.196055] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[1.196557] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[1.197241] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[1.197854] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[1.198405] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[1.198965] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[1.199839] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[1.200510] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[1.201088] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[1.201663] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/package.dsv\n'}
+[1.202338] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[1.202495] (-) TimerEvent: {}
+[1.203677] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[1.207433] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[1.208105] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.208766] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[1.209339] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[1.210022] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.210654] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[1.211257] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.211894] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[1.212425] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[1.213027] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[1.213592] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.214234] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[1.214841] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[1.215452] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[1.216072] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[1.216673] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[1.217248] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[1.217819] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.218344] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.218927] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.219412] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.219965] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.220556] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.221094] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[1.221601] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[1.222198] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/rian/project/slam_ws/install/fast_lio/share/fast_lio/package.xml\n'}
+[1.226772] (fast_lio) CommandEnded: {'returncode': 0}
+[1.273561] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[1.275078] (-) EventReactorShutdown: {}
