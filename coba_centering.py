@@ -474,8 +474,8 @@ if __name__ == '__main__':
 
     print("taking off.....")
     node.takeoff(1.3)
-    #node.broadcast_udp("1_rian_takeoff")
-    #node.wait_for_udp_message("3_rian_turn", port=5005, timeout=300.0)
+    node.broadcast_udp("1_rian_takeoff")
+    node.wait_for_udp_message("3_rian_turn", port=5005, timeout=300.0)
     time.sleep(0.5)
     #node.move_to(comm_start_pose[:3], method="position", max_speed=2.0, tolerance=1.0)
     #node.broadcast_udp("4_verny_turn")
