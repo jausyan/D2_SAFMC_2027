@@ -11,7 +11,7 @@ flight:
   cruise_altitude: 1.3
 
 gate:
-  pcd_path: data/gate_sim.npy
+  pcd_path: data/gate_sim_clean.npy
   center: [2.5, 0.0, 1.3]       
   finish_offset_x: -5.0         
   align_method: GICP
