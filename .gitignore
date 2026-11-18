@@ -1,6 +1,58 @@
-# Ignore 
+# Byte-compiled / optimized / Pylance files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C / C++ build outputs
+*.o
+*.a
+*.dylib
+*.out
+
+# ROS / Colcon / Catkin build outputs & logs
 /build/
 /install/
 /log/
+*.bag
+*.db3
+*.mcap
+COLCON_IGNORE
+CATKIN_IGNORE
+
+# Submodules / external packages in src
 src/*/
-/__pycache__/~
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing and linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local scratch and prompt notes
+peripherals/

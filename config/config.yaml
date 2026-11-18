@@ -1,0 +1,63 @@
+node:
+  name: rian_drone
+  mavros_namespace: /rian
+
+lidar:
+  topic: /livox/lidar
+  msg_type: pointcloud2         
+
+flight:
+  takeoff_altitude: 1.3
+  cruise_altitude: 1.3
+
+gate:
+  pcd_path: data/gate_sim.npy
+  center: [2.5, 0.0, 1.3]       
+  finish_offset_x: -5.0         
+  align_method: GICP
+
+command:                        # inter-drone orders; the strings themselves are written in mission.py
+  order_topic: /mission/order   # std_msgs/String, all drones on the same ROS_DOMAIN_ID
+  timeout: 300.0                # s, default wait_command timeout
+
+# Poses defined in the gate frame (x, y, z) and transformed to the map frame
+# after the gate has been aligned
+poses:
+  center_area: [0.0, 0.0, 1.3]
+  comm_start:  [2.5, 0.0, 1.3]
+  land_area:   [0.0, 1.0, 1.3]
+
+# Racetrack waypoints in the gate frame (x, y, z)
+path:
+  waypoints:
+    - [2.5, 0.0, 1.3]
+    - [10.5, -0.95, 1.3]
+    - [14.5, -0.95, 1.3]
+    - [16.5, -0.95, 1.3]
+    - [19.0, -5.0, 1.3]
+    - [18.0, -7.5, 1.3]
+    - [16.0, -9.05, 1.3]
+    - [12.0, -9.05, 1.3]
+    - [10.0, -9.05, 1.3]
+    - [-2.875, -8.672, 1.3]
+    - [-4.25, -8.672, 1.3]
+    - [-4.375, -5.0, 1.3]
+    - [-4.5, 0.0, 1.3]
+  smoothing_factor: 0.0001
+  num_samples: 200
+
+controller:
+  move_to:
+    tolerance: 0.75
+  comm_start:
+    tolerance: 1.0
+  follow_path:
+    max_speed: 10.0             # m/s, cap on commanded speed (null = no cap)
+    step_tolerance: 2.0
+    final_tolerance: 0.5
+    slow_down_distance: 4.0     # m from the last point
+    lateral_slowdown_gain: 15.0 # x is divided by gain*|vy| when |vy| >= 1 m/s
+    lateral_slowdown_threshold: 1.0
+  takeoff:
+    height_tolerance: 0.25
+    preflight_setpoints: 100    # setpoints streamed before OFFBOARD/arm
